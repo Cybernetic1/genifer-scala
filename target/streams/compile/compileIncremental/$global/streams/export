@@ -1,0 +1,1 @@
+scalac -bootclasspath /home/yky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar -classpath /home/yky/misc-programs/genifer-scala/target/scala-2.11/classes:/home/yky/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/jars/scala-swing_2.11-2.1.1.jar /home/yky/misc-programs/genifer-scala/src/main/scala/Genifer3.scala

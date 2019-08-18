@@ -1,0 +1,109 @@
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:50:14: object swing is not a member of package scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.swing._[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:51:14: object swing is not a member of package scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.swing.event._[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:297:19: not found: type MainFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  val frame = new MainFrame {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:298:5: not found: value title[0m
+[0m[[0m[31merror[0m] [0m[0m    title = "Population"[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:299:5: not found: value contents[0m
+[0m[[0m[31merror[0m] [0m[0m    contents = new BorderPanel {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:302:5: not found: value size[0m
+[0m[[0m[31merror[0m] [0m[0m    size = new Dimension(340,560)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:204:13: value repaint is not a member of AnyRef[0m
+[0m[[0m[31merror[0m] [0m[0m      frame.repaint()[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:225:24: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m  var startPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:227:22: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m  var endPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:229:23: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m  var dragPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:232:26: not found: type Panel[0m
+[0m[[0m[31merror[0m] [0m[0m  val drawingPanel = new Panel {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:237:18: not found: type Rectangle[0m
+[0m[[0m[31merror[0m] [0m[0m      g.fill(new Rectangle(0,0,size.width,size.height))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:237:32: not found: value size[0m
+[0m[[0m[31merror[0m] [0m[0m      g.fill(new Rectangle(0,0,size.width,size.height))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:237:43: not found: value size[0m
+[0m[[0m[31merror[0m] [0m[0m      g.fill(new Rectangle(0,0,size.width,size.height))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:246:24: not found: type Rectangle[0m
+[0m[[0m[31merror[0m] [0m[0m            g.fill(new Rectangle(x, y, 4, 4))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:264:5: not found: value listenTo[0m
+[0m[[0m[31merror[0m] [0m[0m    listenTo(mouse.clicks,mouse.moves,keys)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:264:14: not found: value mouse[0m
+[0m[[0m[31merror[0m] [0m[0m    listenTo(mouse.clicks,mouse.moves,keys)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:264:27: not found: value mouse[0m
+[0m[[0m[31merror[0m] [0m[0m    listenTo(mouse.clicks,mouse.moves,keys)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:264:39: not found: value keys[0m
+[0m[[0m[31merror[0m] [0m[0m    listenTo(mouse.clicks,mouse.moves,keys)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:266:5: not found: value reactions[0m
+[0m[[0m[31merror[0m] [0m[0m    reactions += {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:267:14: not found: type MousePressed[0m
+[0m[[0m[31merror[0m] [0m[0m      case e:MousePressed =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:268:9: not found: value requestFocus[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFocus() // only needed because we have keyboard input too[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:270:24: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m        endPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:271:25: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m        dragPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:272:9: not found: value repaint[0m
+[0m[[0m[31merror[0m] [0m[0m        repaint()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:273:14: not found: type MouseReleased[0m
+[0m[[0m[31merror[0m] [0m[0m      case e:MouseReleased =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:274:9: not found: value requestFocus[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFocus() // only needed because we have keyboard input too[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:276:25: not found: type Point[0m
+[0m[[0m[31merror[0m] [0m[0m        dragPoint = new Point(-1, -1)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:277:9: not found: value repaint[0m
+[0m[[0m[31merror[0m] [0m[0m        repaint()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:278:14: not found: type MouseDragged[0m
+[0m[[0m[31merror[0m] [0m[0m      case e:MouseDragged =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:279:9: not found: value requestFocus[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFocus() // only needed because we have keyboard input too[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:281:9: not found: value repaint[0m
+[0m[[0m[31merror[0m] [0m[0m        repaint()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:282:14: not found: type KeyTyped[0m
+[0m[[0m[31merror[0m] [0m[0m      case e:KeyTyped =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:283:9: not found: value requestFocus[0m
+[0m[[0m[31merror[0m] [0m[0m        requestFocus() // only needed because we have keyboard input too[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:284:9: not found: value repaint[0m
+[0m[[0m[31merror[0m] [0m[0m        repaint()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yky/misc-programs/genifer-scala/src/main/scala/Evolve.scala:306:9: value visible is not a member of AnyRef[0m
+[0m[[0m[31merror[0m] [0m[0m  frame.visible = true[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m36 errors found[0m
